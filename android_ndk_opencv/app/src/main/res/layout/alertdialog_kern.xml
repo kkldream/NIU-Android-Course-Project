@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="手動設定卷積核"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_title">
+
+        <ToggleButton
+            android:id="@+id/button_1_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toTopOf="@+id/button_2_1"
+            app:layout_constraintEnd_toStartOf="@+id/button_1_2" />
+
+        <ToggleButton
+            android:id="@+id/button_1_2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toTopOf="@+id/button_2_2"
+            app:layout_constraintEnd_toStartOf="@+id/button_1_3" />
+
+        <ToggleButton
+            android:id="@+id/button_1_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toTopOf="@+id/button_2_3"
+            app:layout_constraintEnd_toEndOf="@+id/button_3_3"
+            app:layout_constraintStart_toStartOf="@+id/button_3_3" />
+
+        <ToggleButton
+            android:id="@+id/button_1_4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toTopOf="@+id/button_2_4"
+            app:layout_constraintStart_toEndOf="@+id/button_1_3" />
+
+        <ToggleButton
+            android:id="@+id/button_1_5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toTopOf="@+id/button_2_5"
+            app:layout_constraintStart_toEndOf="@+id/button_1_4" />
+
+        <ToggleButton
+            android:id="@+id/button_2_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toTopOf="@+id/button_3_1"
+            app:layout_constraintEnd_toStartOf="@+id/button_2_2" />
+
+        <ToggleButton
+            android:id="@+id/button_2_2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toTopOf="@+id/button_3_2"
+            app:layout_constraintEnd_toStartOf="@+id/button_2_3" />
+
+        <ToggleButton
+            android:id="@+id/button_2_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toTopOf="@+id/button_3_3"
+            app:layout_constraintEnd_toEndOf="@+id/button_3_3"
+            app:layout_constraintStart_toStartOf="@+id/button_3_3" />
+
+        <ToggleButton
+            android:id="@+id/button_2_4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toTopOf="@+id/button_3_4"
+            app:layout_constraintStart_toEndOf="@+id/button_2_3" />
+
+        <ToggleButton
+            android:id="@+id/button_2_5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toTopOf="@+id/button_3_5"
+            app:layout_constraintStart_toEndOf="@+id/button_2_4" />
+
+        <ToggleButton
+            android:id="@+id/button_3_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toBottomOf="@+id/button_3_2"
+            app:layout_constraintEnd_toStartOf="@+id/button_3_2"
+            app:layout_constraintTop_toTopOf="@+id/button_3_2" />
+
+        <ToggleButton
+            android:id="@+id/button_3_2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toTopOf="@+id/button_4_3"
+            app:layout_constraintEnd_toStartOf="@+id/button_3_3"
+            app:layout_constraintTop_toTopOf="@+id/button_3_3" />
+
+        <ToggleButton
+            android:id="@+id/button_3_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@+id/button_3_4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toTopOf="@+id/button_4_3"
+            app:layout_constraintStart_toEndOf="@+id/button_3_3"
+            app:layout_constraintTop_toTopOf="@+id/button_3_3" />
+
+        <ToggleButton
+            android:id="@+id/button_3_5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintBottom_toBottomOf="@+id/button_3_4"
+            app:layout_constraintStart_toEndOf="@+id/button_3_4"
+            app:layout_constraintTop_toTopOf="@+id/button_3_4" />
+
+        <ToggleButton
+            android:id="@+id/button_4_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintEnd_toStartOf="@+id/button_4_2"
+            app:layout_constraintTop_toBottomOf="@+id/button_3_1" />
+
+        <ToggleButton
+            android:id="@+id/button_4_2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintEnd_toStartOf="@+id/button_4_3"
+            app:layout_constraintTop_toBottomOf="@+id/button_3_2" />
+
+        <ToggleButton
+            android:id="@+id/button_4_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintEnd_toEndOf="@+id/button_3_3"
+            app:layout_constraintStart_toStartOf="@+id/button_3_3"
+            app:layout_constraintTop_toBottomOf="@+id/button_3_3" />
+
+        <ToggleButton
+            android:id="@+id/button_4_4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintStart_toEndOf="@+id/button_4_3"
+            app:layout_constraintTop_toBottomOf="@+id/button_3_4" />
+
+        <ToggleButton
+            android:id="@+id/button_4_5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintStart_toEndOf="@+id/button_4_4"
+            app:layout_constraintTop_toBottomOf="@+id/button_3_5" />
+
+        <ToggleButton
+            android:id="@+id/button_5_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintEnd_toStartOf="@+id/button_5_2"
+            app:layout_constraintTop_toBottomOf="@+id/button_4_1" />
+
+        <ToggleButton
+            android:id="@+id/button_5_2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintEnd_toStartOf="@+id/button_5_3"
+            app:layout_constraintTop_toBottomOf="@+id/button_4_2" />
+
+        <ToggleButton
+            android:id="@+id/button_5_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintEnd_toEndOf="@+id/button_4_3"
+            app:layout_constraintStart_toStartOf="@+id/button_4_3"
+            app:layout_constraintTop_toBottomOf="@+id/button_4_3" />
+
+        <ToggleButton
+            android:id="@+id/button_5_4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintStart_toEndOf="@+id/button_5_3"
+            app:layout_constraintTop_toBottomOf="@+id/button_4_4" />
+
+        <ToggleButton
+            android:id="@+id/button_5_5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:checked="true"
+            android:text="0.04"
+            android:textOff="0.04"
+            android:textOn="0.04"
+            app:layout_constraintStart_toEndOf="@+id/button_5_4"
+            app:layout_constraintTop_toBottomOf="@+id/button_4_5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="每次 增加/減少 0.04 單位"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/seekBar_kern"
+        app:layout_constraintStart_toStartOf="@+id/seekBar_kern"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <TextView
+        android:id="@+id/textView_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="@+id/seekBar_kern"
+        app:layout_constraintEnd_toStartOf="@+id/seekBar_kern"
+        app:layout_constraintTop_toTopOf="@+id/seekBar_kern" />
+
+    <SeekBar
+        android:id="@+id/seekBar_kern"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="8dp"
+        android:max="27"
+        android:progress="5"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/textView_num" />
+
+    <TextView
+        android:id="@+id/textView_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="@+id/seekBar_kern"
+        app:layout_constraintStart_toEndOf="@+id/seekBar_kern"
+        app:layout_constraintTop_toTopOf="@+id/seekBar_kern" />
+
+    <Button
+        android:id="@+id/button_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="減少"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/seekBar_kern"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar_kern" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="增加"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/seekBar_kern"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar_kern" />
+
+    <Button
+        android:id="@+id/button_conversion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="16dp"
+        android:text="轉換"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_sub" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
